@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/musicAppAuth/static/css/main.6e22c626.chunk.css",
+    "main.js": "/musicAppAuth/static/js/main.016ef144.chunk.js",
+    "main.js.map": "/musicAppAuth/static/js/main.016ef144.chunk.js.map",
+    "runtime-main.js": "/musicAppAuth/static/js/runtime-main.91eab621.js",
+    "runtime-main.js.map": "/musicAppAuth/static/js/runtime-main.91eab621.js.map",
+    "static/css/2.15a7a700.chunk.css": "/musicAppAuth/static/css/2.15a7a700.chunk.css",
+    "static/js/2.da572bff.chunk.js": "/musicAppAuth/static/js/2.da572bff.chunk.js",
+    "static/js/2.da572bff.chunk.js.map": "/musicAppAuth/static/js/2.da572bff.chunk.js.map",
+    "index.html": "/musicAppAuth/index.html",
+    "static/css/2.15a7a700.chunk.css.map": "/musicAppAuth/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.6e22c626.chunk.css.map": "/musicAppAuth/static/css/main.6e22c626.chunk.css.map",
+    "static/js/2.da572bff.chunk.js.LICENSE.txt": "/musicAppAuth/static/js/2.da572bff.chunk.js.LICENSE.txt",
+    "static/media/min-1.848ce788.png": "/musicAppAuth/static/media/min-1.848ce788.png",
+    "static/media/min-2.e2591a8c.png": "/musicAppAuth/static/media/min-2.e2591a8c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91eab621.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.da572bff.chunk.js",
+    "static/css/main.6e22c626.chunk.css",
+    "static/js/main.016ef144.chunk.js"
+  ]
+}
