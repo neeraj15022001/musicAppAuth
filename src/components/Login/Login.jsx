@@ -3,6 +3,7 @@ import Form from "../common/Form/Form";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import image from "../../resources/min-2.png";
+import stars from "../../resources/min-1-stars.png";
 
 function Login() {
   return (
@@ -25,9 +26,10 @@ function Login() {
           <Col
             xs={5}
             sm={5}
-            className="d-flex align-items-center justify-content-end"
+            className="d-flex align-items-center justify-content-end position-relative"
           >
-            <Image className="m-0 p-0" src={image} alt="image" width="100%" />
+            <Image className="m-0 p-0 z-2" src={image} alt="image" width="100%" />
+            <Image className="m-0 p-0 z-1 position-absolute top-0 end-0 bottom-0 start-0" src={stars} alt="image" width="100%" />
           </Col>
         </Row>
       </Container>
