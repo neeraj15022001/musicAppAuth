@@ -1,11 +1,16 @@
-import React from "react";
+import React,{useContext} from "react";
 import Form from "../common/Form/Form";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import image from "../../resources/min-2.png";
 import stars from "../../resources/min-1-stars.png";
+import {UserContext} from "../../controller/UserContext/UserContext"
 
 function Login() {
+  const [registered, changeUser] = useContext(UserContext)
+  const changeState = () => {
+    changeUser(registered => !registered)
+  }
   return (
     <div className="full-page-spread bg-themeBg d-flex align-items-center justify-content-center">
       <Container fluid>
@@ -21,6 +26,7 @@ function Login() {
               isRegistering={false}
               title="Login"
               buttonTitle="Sign In"
+              changeState={changeState}
             />
           </Col>
           <Col

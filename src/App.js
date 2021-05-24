@@ -1,15 +1,17 @@
-import React from 'react'
-import "./App.css"
-import Login from "./components/Login/Login"
-import Signup from "./components/Signup/Signup"
+import React from "react";
+import "./App.css";
+import MiddleWare from "./MiddleWare"
+import {UserProvider} from "./controller/UserContext/UserContext"
 
 function App() {
-  const isRegistered = true
+  const isRegistered = true;
   return (
     <div>
-      {isRegistered ? <Login /> : <Signup />}
+      <UserProvider>
+        <MiddleWare />
+      </UserProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
